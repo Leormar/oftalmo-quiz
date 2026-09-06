@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Cuestionario de Oftalmología · Residencia Universidad CES</title>
 <meta name="description" content="30 preguntas de oftalmología básica y urgencias para médicos generales. Preparación para examen de ingreso a residencia. Basado en el BCSC 2025-2026 de la AAO.">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👁️</text></svg>">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230e7490'/%3E%3Cpath d='M12 32s7-13 20-13 20 13 20 13-7 13-20 13-20-13-20-13z' fill='none' stroke='white' stroke-width='4' stroke-linejoin='round'/%3E%3Ccircle cx='32' cy='32' r='6' fill='white'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -105,13 +105,18 @@ footer{margin-top:28px;text-align:center;font-size:12px;color:var(--muted)}
 .inst-uni{font-weight:600;color:var(--brand);font-size:14px}
 .inst-dir{font-size:13px;color:var(--muted);margin-top:2px}
 footer b{color:var(--ink)}
+.ic{width:18px;height:18px;vertical-align:-3px;margin-right:8px;color:var(--brand);flex:0 0 auto}
+.ic.sm{width:16px;height:16px;color:inherit;margin-right:6px}
+.ic.xs{width:14px;height:14px;color:inherit;margin-right:5px;vertical-align:-2px}
+.mode b{display:flex;align-items:center}
+.explain b{display:flex;align-items:center}
 .hidden{display:none!important}
 </style>
 </head>
 <body>
 <div class="wrap">
   <header class="top">
-    <div class="brand"><div class="eye">👁️</div><div>Residencia de Oftalmología · Universidad CES<small>Cuestionario BCSC 2025-2026 · AAO</small></div></div>
+    <div class="brand"><div class="eye"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg></div><div>Residencia de Oftalmología · Universidad CES<small>Cuestionario BCSC 2025-2026 · AAO</small></div></div>
     <button class="btn sm hidden" id="btnReset" onclick="app.reset()">Reiniciar</button>
   </header>
 
@@ -132,8 +137,8 @@ footer b{color:var(--ink)}
     </div>
     <h2>Elige un modo</h2>
     <div class="modes">
-      <button class="mode" onclick="app.start('exam')"><b>🎯 Modo examen</b><span>Cronómetro de 45 min. Respondes las 30 y al final ves la calificación, la clave y las justificaciones.</span></button>
-      <button class="mode" onclick="app.start('study')"><b>📖 Modo estudio</b><span>Retroalimentación inmediata: al responder ves si acertaste, la justificación y la referencia del BCSC.</span></button>
+      <button class="mode" onclick="app.start('exam')"><b><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>Modo examen</b><span>Cronómetro de 45 min. Respondes las 30 y al final ves la calificación, la clave y las justificaciones.</span></button>
+      <button class="mode" onclick="app.start('study')"><b><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>Modo estudio</b><span>Retroalimentación inmediata: al responder ves si acertaste, la justificación y la referencia del BCSC.</span></button>
     </div>
     <p class="muted" style="font-size:13px">Cada pregunta tiene el mismo valor. Tu progreso se guarda en este navegador.</p>
   </section>
@@ -254,7 +259,7 @@ const app = {
     if(revealed){
       const good = sel===q.answer;
       ex.className='explain '+(good?'good':'wrong');
-      ex.innerHTML = `<b>${good?'✅ Correcto':'❌ Incorrecto'} · Respuesta: ${q.answer}</b>${q.explanation}<div class="ref">📚 ${q.reference}</div>`;
+      ex.innerHTML = `<b>${good?'<svg class="ic sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg>Correcto':'<svg class="ic sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m15 9-6 6M9 9l6 6"/></svg>Incorrecto'} · Respuesta: ${q.answer}</b>${q.explanation}<div class="ref"><svg class="ic xs" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>${q.reference}</div>`;
     } else ex.className='explain hidden';
     $('btnPrev').disabled = i===0;
     $('btnNext').classList.toggle('hidden', i===L.length-1);
@@ -287,7 +292,7 @@ const app = {
       return `<div class="rv"><div class="h"><div><span class="muted" style="font-size:12px">${q.type==='tf'?'Falso o verdadero':q.area+(q.topic?' · '+q.topic:'')}</span><div style="font-weight:500">${q.n}. ${q.text}</div></div>${tag}</div>
         ${a&&!ok?`<div class="ans" style="color:var(--bad)">Tu respuesta: ${txt(a)}</div>`:''}
         <div class="ans" style="color:var(--ok)">Respuesta correcta: ${txt(q.answer)}</div>
-        <div class="explain" style="margin-top:10px">${q.explanation}<div class="ref">📚 ${q.reference}</div></div></div>`;
+        <div class="explain" style="margin-top:10px">${q.explanation}<div class="ref"><svg class="ic xs" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>${q.reference}</div></div></div>`;
     }).join('');
     $('bib').innerHTML = window.QUIZ.bibliography.map(b=>`<li>${b.replace(/^\d+\. /,'')}</li>`).join('');
     window.scrollTo({top:0});
