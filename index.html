@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Cuestionario de Oftalmología · BCSC 2025-2026</title>
+<title>Cuestionario de Oftalmología · Residencia Universidad CES</title>
 <meta name="description" content="30 preguntas de oftalmología básica y urgencias para médicos generales. Preparación para examen de ingreso a residencia. Basado en el BCSC 2025-2026 de la AAO.">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👁️</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -100,19 +100,29 @@ details{margin-top:18px}
 summary{cursor:pointer;font-weight:600}
 ol.bib{font-size:13px;color:var(--muted);padding-left:18px}
 footer{margin-top:28px;text-align:center;font-size:12px;color:var(--muted)}
+.inst{border-bottom:1px solid var(--line);padding-bottom:14px;margin-bottom:16px}
+.inst-name{font-weight:700;font-size:15px;letter-spacing:-.01em}
+.inst-uni{font-weight:600;color:var(--brand);font-size:14px}
+.inst-dir{font-size:13px;color:var(--muted);margin-top:2px}
+footer b{color:var(--ink)}
 .hidden{display:none!important}
 </style>
 </head>
 <body>
 <div class="wrap">
   <header class="top">
-    <div class="brand"><div class="eye">👁️</div><div>Oftalmología · Quiz<small>BCSC 2025-2026 · AAO</small></div></div>
+    <div class="brand"><div class="eye">👁️</div><div>Residencia de Oftalmología · Universidad CES<small>Cuestionario BCSC 2025-2026 · AAO</small></div></div>
     <button class="btn sm hidden" id="btnReset" onclick="app.reset()">Reiniciar</button>
   </header>
 
   <!-- INTRO -->
   <section id="intro" class="card">
-    <span class="pill">Preparación para residencia</span>
+    <div class="inst">
+      <div class="inst-name">Programa de Residencia de Oftalmología</div>
+      <div class="inst-uni">Universidad CES</div>
+      <div class="inst-dir">Director: Dr. Juan Pablo Santamaría, MD</div>
+    </div>
+    <span class="pill">Preparación para examen de ingreso a residencia</span>
     <h1 style="margin-top:12px">Compendio de 30 preguntas de oftalmología</h1>
     <p class="muted">Oftalmología básica y urgencias oftalmológicas para médicos generales. Basado en el <em>Basic and Clinical Science Course</em> (BCSC) 2025-2026 de la American Academy of Ophthalmology.</p>
     <div class="grid cols3" style="margin:18px 0">
@@ -150,7 +160,7 @@ footer{margin-top:28px;text-align:center;font-size:12px;color:var(--muted)}
 
   <!-- RESULTS -->
   <section id="results" class="card hidden">
-    <span class="pill">Resultados</span>
+    <span class="pill">Resultados</span> <span class="muted" style="font-size:13px;margin-left:6px">Residencia de Oftalmología · Universidad CES</span>
     <h1 style="margin-top:12px" id="resTitle"></h1>
     <div class="score">
       <div class="ring" id="ring"><div id="ringTxt"></div></div>
@@ -170,7 +180,7 @@ footer{margin-top:28px;text-align:center;font-size:12px;color:var(--muted)}
     <details><summary>Bibliografía (BCSC 2025-2026)</summary><ol class="bib" id="bib"></ol></details>
   </section>
 
-  <footer>Uso académico. Preguntas basadas en el BCSC 2025-2026 de la American Academy of Ophthalmology.</footer>
+  <footer><b>Programa de Residencia de Oftalmología · Universidad CES</b><br>Director: Dr. Juan Pablo Santamaría, MD<br><span style="opacity:.8">Uso académico. Preguntas basadas en el BCSC 2025-2026 de la American Academy of Ophthalmology.</span></footer>
 </div>
 
 <script src="data.js"></script>
