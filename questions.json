@@ -1,0 +1,922 @@
+{
+ "title": "Compendio de 30 preguntas",
+ "subtitle": "Oftalmología básica y urgencias oftalmológicas para médicos generales",
+ "source": "Basado en el Basic and Clinical Science Course (BCSC) 2025-2026 — American Academy of Ophthalmology",
+ "time": 45,
+ "questions": [
+  {
+   "n": 1,
+   "type": "mc",
+   "text": "Paciente de 32 años llega a urgencias 10 minutos después de recibir salpicadura de un limpiador alcalino en el ojo derecho. Refiere dolor intenso y visión borrosa. ¿Cuál es la conducta INMEDIATA más importante?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Medir la agudeza visual y la presión intraocular"
+    },
+    {
+     "id": "B",
+     "text": "Instilar un anestésico tópico y esperar la valoración de oftalmología"
+    },
+    {
+     "id": "C",
+     "text": "Irrigación abundante y prolongada con solución salina o Ringer hasta normalizar el pH conjuntival"
+    },
+    {
+     "id": "D",
+     "text": "Aplicar ungüento antibiótico y ocluir el ojo"
+    },
+    {
+     "id": "E",
+     "text": "Neutralizar el álcali con una solución ácida diluida"
+    }
+   ],
+   "area": "Urgencias",
+   "topic": "Trauma químico",
+   "answer": "C",
+   "explanation": "En quemaduras químicas la irrigación copiosa e inmediata es la única medida que modifica el pronóstico; se realiza antes de cualquier otro paso (incluso antes de tomar la agudeza visual) y se continúa hasta que el pH conjuntival se normalice. Nunca se intenta neutralizar químicamente. Los álcalis penetran más rápido y profundo que los ácidos.",
+   "reference": "BCSC Sección 8, capítulo Lesiones tóxicas y traumáticas del segmento anterior (quemaduras químicas)."
+  },
+  {
+   "n": 2,
+   "type": "mc",
+   "text": "Mujer de 65 años, hipermétrope, consulta por dolor ocular intenso unilateral de inicio súbito, cefalea, náuseas, visión de halos alrededor de las luces y ojo rojo. Al examen: córnea opaca, pupila en midriasis media no reactiva y globo duro a la palpación. ¿Cuál es el diagnóstico más probable?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Uveítis anterior aguda"
+    },
+    {
+     "id": "B",
+     "text": "Cierre angular primario agudo"
+    },
+    {
+     "id": "C",
+     "text": "Queratitis bacteriana"
+    },
+    {
+     "id": "D",
+     "text": "Conjuntivitis viral"
+    },
+    {
+     "id": "E",
+     "text": "Neuritis óptica"
+    }
+   ],
+   "area": "Urgencias",
+   "topic": "Glaucoma agudo",
+   "answer": "B",
+   "explanation": "La tríada de dolor intenso, halos y pupila en midriasis media fija con edema corneal y PIO muy elevada es característica del cierre angular agudo, más frecuente en mujeres mayores e hipermétropes (cámara anterior estrecha). Es una urgencia: se inicia reducción de la PIO (agentes tópicos, acetazolamida, hiperosmóticos) y se remite para iridotomía láser.",
+   "reference": "BCSC Sección 10, capítulo Glaucoma de ángulo cerrado (cierre angular primario agudo)."
+  },
+  {
+   "n": 3,
+   "type": "mc",
+   "text": "Hombre de 70 años con pérdida visual súbita, indolora y profunda del ojo izquierdo hace 1 hora. Fondo de ojo: retina pálida con mancha rojo cereza en la mácula. Además del manejo ocular, ¿qué evaluación es prioritaria?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Glicemia en ayunas"
+    },
+    {
+     "id": "B",
+     "text": "VSG y PCR para descartar arteritis de células gigantes, y estudio vascular (carótidas, cardíaco) como evento isquémico"
+    },
+    {
+     "id": "C",
+     "text": "Radiografía de tórax"
+    },
+    {
+     "id": "D",
+     "text": "Resonancia magnética de órbitas"
+    },
+    {
+     "id": "E",
+     "text": "Serología para toxoplasma"
+    }
+   ],
+   "area": "Urgencias",
+   "topic": "Oclusión arterial",
+   "answer": "B",
+   "explanation": "La oclusión de la arteria central de la retina (OACR) es el equivalente ocular de un accidente cerebrovascular: requiere estudio urgente de fuente embólica (carótidas, corazón) y, en mayores de 50 años, descartar arteritis de células gigantes con VSG y PCR, porque el ojo contralateral puede perderse en días si no se inician corticoides.",
+   "reference": "BCSC Sección 12, capítulo Enfermedad vascular retiniana (oclusiones arteriales)."
+  },
+  {
+   "n": 4,
+   "type": "mc",
+   "text": "Paciente miope de 45 años refiere desde ayer destellos luminosos (fotopsias), lluvia de puntos negros y ahora una 'cortina' que cubre parte del campo visual inferior. ¿Cuál es la conducta correcta?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Observación y control en 2 semanas"
+    },
+    {
+     "id": "B",
+     "text": "Gotas lubricantes y analgésicos"
+    },
+    {
+     "id": "C",
+     "text": "Remisión urgente a oftalmología por sospecha de desprendimiento de retina regmatógeno"
+    },
+    {
+     "id": "D",
+     "text": "Iniciar corticoides orales"
+    },
+    {
+     "id": "E",
+     "text": "Solicitar campo visual computarizado ambulatorio"
+    }
+   ],
+   "area": "Urgencias",
+   "topic": "Desprendimiento de retina",
+   "answer": "C",
+   "explanation": "Fotopsias, miodesopsias de inicio agudo y defecto de campo tipo cortina son los síntomas cardinales del desprendimiento de retina. Mientras la mácula esté aplicada, la cirugía urgente conserva la visión central; el retraso empeora el pronóstico. La miopía es factor de riesgo.",
+   "reference": "BCSC Sección 12, capítulo Desprendimiento de retina y afecciones periféricas predisponentes."
+  },
+  {
+   "n": 5,
+   "type": "mc",
+   "text": "Niño de 7 años con sinusitis previa presenta edema y eritema palpebral. ¿Cuál de los siguientes hallazgos indica celulitis ORBITARIA (postseptal) y no preseptal?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Fiebre"
+    },
+    {
+     "id": "B",
+     "text": "Edema palpebral marcado"
+    },
+    {
+     "id": "C",
+     "text": "Dolor con los movimientos oculares, proptosis y limitación de la motilidad"
+    },
+    {
+     "id": "D",
+     "text": "Secreción conjuntival"
+    },
+    {
+     "id": "E",
+     "text": "Hiperemia conjuntival leve"
+    }
+   ],
+   "area": "Urgencias",
+   "topic": "Infección orbitaria",
+   "answer": "C",
+   "explanation": "La celulitis orbitaria compromete tejidos posteriores al septum orbitario: proptosis, dolor y limitación de la motilidad ocular, quemosis y posible disminución de la visión o defecto pupilar aferente. Es una urgencia que requiere TAC de órbitas y senos, antibióticos IV y hospitalización, por riesgo de absceso, trombosis del seno cavernoso y ceguera.",
+   "reference": "BCSC Sección 7, capítulo Infecciones e inflamaciones de la órbita (celulitis orbitaria y preseptal)."
+  },
+  {
+   "n": 6,
+   "type": "mc",
+   "text": "Trabajador que martillaba metal llega con dolor ocular y disminución de la visión. Se observa laceración corneal con prolapso de iris y pupila en forma de lágrima. ¿Cuál es el manejo inicial correcto por parte del médico general?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Irrigar abundantemente y aplicar ungüento antibiótico"
+    },
+    {
+     "id": "B",
+     "text": "Colocar parche compresivo para detener el sangrado"
+    },
+    {
+     "id": "C",
+     "text": "Colocar un escudo rígido sin presión, dejar en ayunas, iniciar antibiótico sistémico, profilaxis antitetánica y remitir de urgencia"
+    },
+    {
+     "id": "D",
+     "text": "Retirar el tejido prolapsado con pinzas"
+    },
+    {
+     "id": "E",
+     "text": "Medir la presión intraocular con tonómetro de contacto"
+    }
+   ],
+   "area": "Urgencias",
+   "topic": "Trauma ocular abierto",
+   "answer": "C",
+   "explanation": "Ante sospecha de globo abierto no se aplica presión alguna sobre el ojo (no parche compresivo, no tonometría, no manipular tejido prolapsado). Se protege con escudo rígido, ayuno para cirugía, analgesia y antieméticos (evitar Valsalva), antibióticos sistémicos, profilaxis antitetánica y remisión inmediata. Ante antecedente metal-contra-metal se sospecha cuerpo extraño intraocular y se solicita TAC (no RM).",
+   "reference": "BCSC Sección 8, capítulo Lesiones traumáticas del segmento anterior; Sección 12, capítulo Trauma del segmento posterior."
+  },
+  {
+   "n": 7,
+   "type": "mc",
+   "text": "Adolescente recibe un balonazo en el ojo. Se observa sangre en el tercio inferior de la cámara anterior. ¿Cuál de las siguientes medidas es INCORRECTA en el manejo inicial?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Reposo con cabecera elevada a 30-45°"
+    },
+    {
+     "id": "B",
+     "text": "Escudo protector"
+    },
+    {
+     "id": "C",
+     "text": "Administrar ácido acetilsalicílico o AINE para el dolor"
+    },
+    {
+     "id": "D",
+     "text": "Vigilar la presión intraocular"
+    },
+    {
+     "id": "E",
+     "text": "Descartar hemoglobinopatía drepanocítica en pacientes de riesgo"
+    }
+   ],
+   "area": "Urgencias",
+   "topic": "Hifema",
+   "answer": "C",
+   "explanation": "En hifema se evitan los antiagregantes y AINE por el riesgo de resangrado (mayor entre el día 2 y 5). El manejo incluye reposo, cabecera elevada, escudo, control de PIO y remisión. En pacientes con rasgo o enfermedad drepanocítica la PIO elevada es más peligrosa y se evitan los inhibidores de anhidrasa carbónica.",
+   "reference": "BCSC Sección 8, capítulo Lesiones traumáticas del segmento anterior (hifema); Sección 10, capítulo Glaucoma secundario (glaucoma asociado a trauma)."
+  },
+  {
+   "n": 8,
+   "type": "mc",
+   "text": "Paciente con trauma contuso periorbitario presenta diplopía en la mirada hacia arriba, hipoestesia de la mejilla y del labio superior, y enoftalmos leve. ¿Cuál es el diagnóstico más probable?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Fractura del techo orbitario"
+    },
+    {
+     "id": "B",
+     "text": "Fractura del piso orbitario (blow-out) con atrapamiento del recto inferior y lesión del nervio infraorbitario"
+    },
+    {
+     "id": "C",
+     "text": "Parálisis del IV par craneal"
+    },
+    {
+     "id": "D",
+     "text": "Hematoma retrobulbar"
+    },
+    {
+     "id": "E",
+     "text": "Luxación del cristalino"
+    }
+   ],
+   "area": "Trauma",
+   "topic": "Fractura orbitaria",
+   "answer": "B",
+   "explanation": "La fractura por estallido del piso orbitario produce restricción del recto inferior (diplopía en supraversión), hipoestesia en el territorio del nervio infraorbitario (V2) y enoftalmos. En niños puede presentarse como fractura 'en trampilla' con ojo blanco, náuseas y bradicardia (reflejo oculocardíaco), que requiere cirugía temprana.",
+   "reference": "BCSC Sección 7, capítulo Trauma orbitario (fracturas del piso orbitario)."
+  },
+  {
+   "n": 9,
+   "type": "mc",
+   "text": "Usuario de lentes de contacto blandos que duerme con ellos consulta por ojo rojo doloroso, fotofobia y un infiltrado corneal blanco con defecto epitelial. ¿Cuál es la conducta más adecuada?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Colocar parche oclusivo y control en 48 horas"
+    },
+    {
+     "id": "B",
+     "text": "Iniciar corticoide tópico"
+    },
+    {
+     "id": "C",
+     "text": "Suspender el lente de contacto, NO ocluir, y remitir el mismo día para cultivo e inicio de antibiótico tópico de amplio espectro (sospecha de Pseudomonas)"
+    },
+    {
+     "id": "D",
+     "text": "Indicar lubricantes y volver a usar el lente en 3 días"
+    },
+    {
+     "id": "E",
+     "text": "Prescribir aciclovir oral"
+    }
+   ],
+   "area": "Córnea",
+   "topic": "Queratitis infecciosa",
+   "answer": "C",
+   "explanation": "La queratitis bacteriana en usuarios de lentes de contacto (especialmente uso nocturno) es una urgencia; Pseudomonas aeruginosa puede perforar la córnea en 24-48 horas. Está contraindicado ocluir el ojo (favorece el crecimiento bacteriano) e iniciar corticoides sin cobertura antimicrobiana.",
+   "reference": "BCSC Sección 8, capítulo Queratitis infecciosa (queratitis bacteriana)."
+  },
+  {
+   "n": 10,
+   "type": "mc",
+   "text": "Paciente con ojo rojo unilateral, lagrimeo y sensación de cuerpo extraño. Con fluoresceína se observa una lesión ramificada con bulbos terminales. ¿Cuál es el diagnóstico y qué medicamento está CONTRAINDICADO iniciar sin supervisión de oftalmología?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Queratitis por Acanthamoeba — antibióticos"
+    },
+    {
+     "id": "B",
+     "text": "Queratitis herpética dendrítica — corticoides tópicos"
+    },
+    {
+     "id": "C",
+     "text": "Queratitis fúngica — antivirales"
+    },
+    {
+     "id": "D",
+     "text": "Abrasión corneal — lubricantes"
+    },
+    {
+     "id": "E",
+     "text": "Queratitis por exposición — cicloplégicos"
+    }
+   ],
+   "area": "Córnea",
+   "topic": "Herpes simple",
+   "answer": "B",
+   "explanation": "La úlcera dendrítica con bulbos terminales que tiñe con fluoresceína es patognomónica de queratitis epitelial por virus herpes simple. Los corticoides tópicos empeoran la enfermedad epitelial (úlcera geográfica) y solo se usan en la forma estromal bajo cobertura antiviral. El tratamiento es antiviral tópico (ganciclovir gel, trifluridina) u oral (aciclovir, valaciclovir).",
+   "reference": "BCSC Sección 8, capítulo Queratitis infecciosa (queratitis por virus herpes simple)."
+  },
+  {
+   "n": 11,
+   "type": "mc",
+   "text": "Adulto mayor con vesículas en la frente y el párpado superior derecho que respetan la línea media, además de vesículas en la punta de la nariz. ¿Qué indica este último hallazgo?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Sobreinfección bacteriana"
+    },
+    {
+     "id": "B",
+     "text": "Signo de Hutchinson: compromiso del nervio nasociliar y mayor riesgo de afectación ocular"
+    },
+    {
+     "id": "C",
+     "text": "Afectación del nervio facial"
+    },
+    {
+     "id": "D",
+     "text": "Necesidad de biopsia"
+    },
+    {
+     "id": "E",
+     "text": "Que el cuadro es varicela primaria"
+    }
+   ],
+   "area": "Córnea",
+   "topic": "Herpes zóster oftálmico",
+   "answer": "B",
+   "explanation": "El signo de Hutchinson (vesículas en la punta o el ala de la nariz) indica compromiso de la rama nasociliar de V1, que también inerva el globo ocular, por lo que predice mayor riesgo de queratitis, uveítis y otras complicaciones. Se inicia antiviral oral (aciclovir, valaciclovir o famciclovir) idealmente dentro de las primeras 72 horas y se remite a oftalmología.",
+   "reference": "BCSC Sección 8, capítulo Queratitis infecciosa (herpes zóster oftálmico)."
+  },
+  {
+   "n": 12,
+   "type": "mc",
+   "text": "Adulto con ojo rojo bilateral secuencial, secreción acuosa, sensación de arenilla, adenopatía preauricular y antecedente de infección respiratoria alta. ¿Cuál es el manejo más apropiado?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Antibiótico tópico de amplio espectro"
+    },
+    {
+     "id": "B",
+     "text": "Corticoide tópico desde el inicio"
+    },
+    {
+     "id": "C",
+     "text": "Medidas de soporte (compresas frías, lubricantes), higiene estricta de manos e instrucciones de aislamiento por su alta contagiosidad"
+    },
+    {
+     "id": "D",
+     "text": "Antiviral oral"
+    },
+    {
+     "id": "E",
+     "text": "Cultivo conjuntival obligatorio"
+    }
+   ],
+   "area": "Conjuntiva",
+   "topic": "Conjuntivitis viral",
+   "answer": "C",
+   "explanation": "La conjuntivitis adenoviral es autolimitada; los antibióticos no son útiles y los corticoides tópicos pueden prolongar la replicación viral y tienen riesgos propios. Lo fundamental es explicar la contagiosidad (hasta 2 semanas), la higiene y remitir si hay disminución visual o infiltrados subepiteliales.",
+   "reference": "BCSC Sección 8, capítulo Conjuntivitis infecciosa (conjuntivitis viral / adenoviral)."
+  },
+  {
+   "n": 13,
+   "type": "mc",
+   "text": "Recién nacido de 3 días de vida presenta secreción purulenta abundante bilateral, quemosis y edema palpebral marcado. ¿Cuál es el agente más probable y por qué es una urgencia?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Chlamydia trachomatis — riesgo de neumonía"
+    },
+    {
+     "id": "B",
+     "text": "Neisseria gonorrhoeae — puede producir perforación corneal rápida; requiere ceftriaxona sistémica"
+    },
+    {
+     "id": "C",
+     "text": "Staphylococcus aureus — puede causar celulitis"
+    },
+    {
+     "id": "D",
+     "text": "Virus herpes simple — riesgo de encefalitis"
+    },
+    {
+     "id": "E",
+     "text": "Obstrucción del conducto nasolagrimal — riesgo de dacriocistitis"
+    }
+   ],
+   "area": "Pediatría",
+   "topic": "Conjuntivitis neonatal",
+   "answer": "B",
+   "explanation": "La conjuntivitis hiperaguda purulenta en los primeros 2-5 días de vida orienta a N. gonorrhoeae, que puede invadir la córnea intacta y perforarla en horas. Requiere Gram y cultivo, irrigación, ceftriaxona sistémica y estudio de la madre. Chlamydia suele presentarse entre los 5 y 14 días con secreción mucopurulenta menos intensa y se trata con macrólido oral.",
+   "reference": "BCSC Sección 6, capítulo Infecciones oculares en la infancia (conjuntivitis neonatal / oftalmía neonatal)."
+  },
+  {
+   "n": 14,
+   "type": "mc",
+   "text": "Paciente de 55 años con ptosis, ojo desviado hacia afuera y abajo, y pupila dilatada que no responde a la luz, de inicio en las últimas 24 horas con cefalea. ¿Cuál es la conducta?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Control de glicemia y observación 3 meses"
+    },
+    {
+     "id": "B",
+     "text": "Neuroimagen urgente (angioTAC o angioRM) para descartar aneurisma de la arteria comunicante posterior"
+    },
+    {
+     "id": "C",
+     "text": "Prescribir prismas"
+    },
+    {
+     "id": "D",
+     "text": "Toxina botulínica"
+    },
+    {
+     "id": "E",
+     "text": "Corticoides orales"
+    }
+   ],
+   "area": "Neurooftalmología",
+   "topic": "III par",
+   "answer": "B",
+   "explanation": "Una parálisis del III par con compromiso pupilar es un aneurisma de la comunicante posterior hasta que se demuestre lo contrario; la ruptura puede ser fatal. Las fibras pupilares viajan en la periferia del nervio y son vulnerables a la compresión, mientras que la parálisis microvascular (diabética) suele respetar la pupila.",
+   "reference": "BCSC Sección 5, capítulo El paciente con diplopía (parálisis del III nervio craneal)."
+  },
+  {
+   "n": 15,
+   "type": "mc",
+   "text": "Mujer de 78 años con cefalea temporal, claudicación mandibular, dolor de hombros y pérdida visual súbita de un ojo con disco pálido y edematoso. ¿Cuál es la conducta inmediata?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Solicitar biopsia de arteria temporal y esperar resultado para tratar"
+    },
+    {
+     "id": "B",
+     "text": "Iniciar corticoides sistémicos a dosis altas de inmediato, solicitar VSG y PCR y programar la biopsia (que sigue siendo positiva días después)"
+    },
+    {
+     "id": "C",
+     "text": "Antiagregación con aspirina solamente"
+    },
+    {
+     "id": "D",
+     "text": "Remitir a reumatología de forma ambulatoria"
+    },
+    {
+     "id": "E",
+     "text": "Observación"
+    }
+   ],
+   "area": "Neurooftalmología",
+   "topic": "Arteritis de células gigantes",
+   "answer": "B",
+   "explanation": "La arteritis de células gigantes causa neuropatía óptica isquémica anterior arterítica; sin tratamiento el segundo ojo se afecta en días a semanas. Los corticoides se inician ante la sospecha clínica, sin esperar la biopsia (la histología se mantiene positiva por 1-2 semanas o más tras iniciar el tratamiento).",
+   "reference": "BCSC Sección 5, capítulo El paciente con disminución de la visión (neuropatía óptica isquémica arterítica / arteritis de células gigantes); Sección 1, capítulo Enfermedades reumáticas."
+  },
+  {
+   "n": 16,
+   "type": "mc",
+   "text": "Hombre de 30 años con dolor ocular, fotofobia intensa, ojo rojo con hiperemia periquerática (ciliar) y pupila miótica. En lámpara de hendidura hay células y flare en cámara anterior. ¿Con qué se asocia típicamente este cuadro y cuál es la base del tratamiento?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Diabetes — control glicémico"
+    },
+    {
+     "id": "B",
+     "text": "HLA-B27 / espondiloartropatías — corticoides tópicos y cicloplégicos"
+    },
+    {
+     "id": "C",
+     "text": "Hipertensión — antihipertensivos"
+    },
+    {
+     "id": "D",
+     "text": "Uso de lentes de contacto — antibióticos"
+    },
+    {
+     "id": "E",
+     "text": "Alergia — antihistamínicos"
+    }
+   ],
+   "area": "Uveítis",
+   "topic": "Anterior aguda",
+   "answer": "B",
+   "explanation": "La uveítis anterior aguda no granulomatosa, unilateral y recurrente se asocia con frecuencia a HLA-B27 (espondilitis anquilosante, artritis reactiva, enfermedad inflamatoria intestinal, psoriasis). Se trata con corticoide tópico intensivo y cicloplégico (para el dolor y prevenir sinequias posteriores), bajo control oftalmológico.",
+   "reference": "BCSC Sección 9, capítulo Uveítis no infecciosa (uveítis anterior asociada a HLA-B27)."
+  },
+  {
+   "n": 17,
+   "type": "mc",
+   "text": "Mujer joven obesa con cefalea, oscurecimientos visuales transitorios de segundos y diplopía horizontal. Fondo de ojo: edema bilateral del disco óptico con agudeza visual conservada. ¿Cuál es el siguiente paso?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Corticoides orales"
+    },
+    {
+     "id": "B",
+     "text": "Neuroimagen (RM cerebral con venografía) y, si es normal, punción lumbar con medición de presión de apertura"
+    },
+    {
+     "id": "C",
+     "text": "Iniciar acetazolamida sin estudios"
+    },
+    {
+     "id": "D",
+     "text": "Campimetría en 6 meses"
+    },
+    {
+     "id": "E",
+     "text": "Antimigrañosos"
+    }
+   ],
+   "area": "Neurooftalmología",
+   "topic": "Papiledema",
+   "answer": "B",
+   "explanation": "Edema bilateral de disco con síntomas de hipertensión intracraneal define papiledema hasta descartar masa, hidrocefalia o trombosis venosa; primero neuroimagen y luego punción lumbar. Si todo es normal, se diagnostica hipertensión intracraneal idiopática (mujer joven con obesidad), cuyo riesgo principal es la pérdida visual permanente.",
+   "reference": "BCSC Sección 5, capítulo El paciente con disminución de la visión (papiledema e hipertensión intracraneal idiopática)."
+  },
+  {
+   "n": 18,
+   "type": "mc",
+   "text": "Mujer de 28 años con pérdida visual monocular subaguda, dolor que aumenta con los movimientos oculares, alteración de la visión de colores y defecto pupilar aferente relativo; disco óptico de aspecto normal. ¿Cuál es el diagnóstico probable y qué estudio orienta el pronóstico neurológico?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Neuropatía óptica isquémica — VSG"
+    },
+    {
+     "id": "B",
+     "text": "Neuritis óptica retrobulbar desmielinizante — RM cerebral para valorar lesiones de esclerosis múltiple"
+    },
+    {
+     "id": "C",
+     "text": "Glaucoma agudo — tonometría"
+    },
+    {
+     "id": "D",
+     "text": "Desprendimiento de retina — ecografía"
+    },
+    {
+     "id": "E",
+     "text": "Migraña retiniana — sin estudios"
+    }
+   ],
+   "area": "Neurooftalmología",
+   "topic": "Neuritis óptica",
+   "answer": "B",
+   "explanation": "Neuritis óptica típica: mujer joven, dolor con los movimientos, discromatopsia, DPAR y disco normal (retrobulbar) en dos tercios de los casos. Según el Optic Neuritis Treatment Trial, la metilprednisolona IV acelera la recuperación pero no cambia el resultado visual final; la RM cerebral es el principal predictor del riesgo de esclerosis múltiple.",
+   "reference": "BCSC Sección 5, capítulo El paciente con disminución de la visión (neuritis óptica)."
+  },
+  {
+   "n": 19,
+   "type": "mc",
+   "text": "¿Cuándo debe realizarse el PRIMER examen oftalmológico con dilatación pupilar en un paciente con diabetes mellitus tipo 2 recién diagnosticada?",
+   "options": [
+    {
+     "id": "A",
+     "text": "A los 5 años del diagnóstico"
+    },
+    {
+     "id": "B",
+     "text": "Solo si presenta síntomas visuales"
+    },
+    {
+     "id": "C",
+     "text": "En el momento del diagnóstico, y luego al menos una vez al año"
+    },
+    {
+     "id": "D",
+     "text": "A los 10 años del diagnóstico"
+    },
+    {
+     "id": "E",
+     "text": "Únicamente si la hemoglobina glicosilada es mayor de 9%"
+    }
+   ],
+   "area": "Retina",
+   "topic": "Retinopatía diabética",
+   "answer": "C",
+   "explanation": "En diabetes tipo 2 puede haber años de hiperglucemia no diagnosticada, por lo que el examen se hace al momento del diagnóstico. En tipo 1 el primer examen se recomienda a los 5 años del diagnóstico (a partir de la pubertad). El seguimiento anual permite detectar edema macular y retinopatía proliferativa cuando aún son tratables.",
+   "reference": "BCSC Sección 12, capítulo Retinopatía diabética (tamizaje y clasificación)."
+  },
+  {
+   "n": 20,
+   "type": "mc",
+   "text": "Madre nota un reflejo pupilar blanco en el ojo derecho de su hijo de 18 meses en una fotografía con flash. ¿Cuál es la conducta?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Tranquilizar y control en 1 año"
+    },
+    {
+     "id": "B",
+     "text": "Remisión urgente a oftalmología: retinoblastoma hasta demostrar lo contrario"
+    },
+    {
+     "id": "C",
+     "text": "Gotas antibióticas"
+    },
+    {
+     "id": "D",
+     "text": "Solicitar radiografía de cráneo"
+    },
+    {
+     "id": "E",
+     "text": "Iniciar parche en el ojo sano"
+    }
+   ],
+   "area": "Pediatría",
+   "topic": "Leucocoria",
+   "answer": "B",
+   "explanation": "La leucocoria es el signo de presentación más frecuente del retinoblastoma, el tumor intraocular maligno más común de la infancia, potencialmente mortal si no se trata. Otras causas (catarata congénita, enfermedad de Coats, persistencia de vasculatura fetal, retinopatía de la prematuridad) también requieren valoración pronta.",
+   "reference": "BCSC Sección 6, capítulo Tumores intraoculares pediátricos y leucocoria; Sección 4, capítulo Retinoblastoma."
+  },
+  {
+   "n": 21,
+   "type": "mc",
+   "text": "Niña de 4 años con estrabismo convergente constante del ojo izquierdo desde los 2 años, sin otras alteraciones. ¿Cuál es la principal razón para remitirla pronto a oftalmología?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Por estética únicamente"
+    },
+    {
+     "id": "B",
+     "text": "Porque la ambliopía es reversible solo durante el período de plasticidad visual (aproximadamente hasta los 7-8 años) y el tratamiento temprano mejora el pronóstico"
+    },
+    {
+     "id": "C",
+     "text": "Porque necesita cirugía inmediata"
+    },
+    {
+     "id": "D",
+     "text": "Porque el estrabismo desaparece solo"
+    },
+    {
+     "id": "E",
+     "text": "Porque requiere lentes de contacto"
+    }
+   ],
+   "area": "Pediatría",
+   "topic": "Ambliopía",
+   "answer": "B",
+   "explanation": "El estrabismo constante suprime la imagen del ojo desviado y produce ambliopía. El tratamiento (corrección óptica, oclusión o penalización del ojo dominante) es más eficaz cuanto más temprano se inicia; después del período crítico la respuesta disminuye notablemente.",
+   "reference": "BCSC Sección 6, capítulo Ambliopía."
+  },
+  {
+   "n": 22,
+   "type": "mc",
+   "text": "Paciente operado de catarata hace 4 días consulta por dolor ocular creciente, disminución marcada de la visión, ojo rojo e hipopión. ¿Cuál es el diagnóstico y la conducta?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Uveítis postoperatoria leve — aumentar el corticoide tópico"
+    },
+    {
+     "id": "B",
+     "text": "Endoftalmitis postoperatoria aguda — remisión inmediata para toma de muestra vítrea e inyección intravítrea de antibióticos"
+    },
+    {
+     "id": "C",
+     "text": "Conjuntivitis bacteriana — antibiótico tópico"
+    },
+    {
+     "id": "D",
+     "text": "Glaucoma por esteroides — suspender gotas"
+    },
+    {
+     "id": "E",
+     "text": "Edema macular — AINE tópico"
+    }
+   ],
+   "area": "Urgencias",
+   "topic": "Endoftalmitis",
+   "answer": "B",
+   "explanation": "Dolor, pérdida visual e hipopión en la primera semana tras cirugía intraocular indican endoftalmitis aguda (más frecuente por estafilococos coagulasa negativos). Es una emergencia: cada hora cuenta para el pronóstico visual; el manejo es intravítreo (vancomicina más ceftazidima) con o sin vitrectomía según la visión inicial.",
+   "reference": "BCSC Sección 9, capítulo Endoftalmitis; Sección 11, capítulo Complicaciones de la cirugía de catarata."
+  },
+  {
+   "n": 23,
+   "type": "mc",
+   "text": "Hombre hipertenso de 68 años con disminución visual indolora unilateral. Fondo de ojo: hemorragias retinianas difusas en los cuatro cuadrantes, venas tortuosas y dilatadas, exudados algodonosos y edema de disco. ¿Cuál es el diagnóstico y qué complicación tardía debe vigilarse?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Oclusión de la vena central de la retina — glaucoma neovascular"
+    },
+    {
+     "id": "B",
+     "text": "Retinopatía hipertensiva maligna — desprendimiento seroso"
+    },
+    {
+     "id": "C",
+     "text": "Oclusión de arteria central — atrofia óptica"
+    },
+    {
+     "id": "D",
+     "text": "Desgarro retiniano — desprendimiento"
+    },
+    {
+     "id": "E",
+     "text": "Coriorretinitis — cicatriz macular"
+    }
+   ],
+   "area": "Retina",
+   "topic": "Oclusión venosa",
+   "answer": "A",
+   "explanation": "El aspecto de 'sangre y trueno' es típico de la OVCR. Se asocia a hipertensión, diabetes, glaucoma e hiperviscosidad. En la forma isquémica puede aparecer neovascularización del iris y glaucoma neovascular alrededor de los 90 días ('glaucoma de los 100 días'). El edema macular se trata con antiangiogénicos intravítreos.",
+   "reference": "BCSC Sección 12, capítulo Enfermedad vascular retiniana (oclusiones venosas)."
+  },
+  {
+   "n": 24,
+   "type": "mc",
+   "text": "Al realizar la prueba de la linterna oscilante, al pasar la luz del ojo derecho al izquierdo, ambas pupilas se dilatan. ¿Qué indica este hallazgo?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Catarata densa del ojo izquierdo"
+    },
+    {
+     "id": "B",
+     "text": "Defecto pupilar aferente relativo (pupila de Marcus Gunn) del ojo izquierdo: lesión del nervio óptico o daño retiniano extenso"
+    },
+    {
+     "id": "C",
+     "text": "Parálisis del III par izquierdo"
+    },
+    {
+     "id": "D",
+     "text": "Pupila de Adie"
+    },
+    {
+     "id": "E",
+     "text": "Síndrome de Horner"
+    }
+   ],
+   "area": "Semiología",
+   "topic": "Defecto pupilar aferente",
+   "answer": "B",
+   "explanation": "El DPAR indica asimetría en la conducción aferente entre los dos ojos (nervio óptico o retina extensa). No lo producen las opacidades de medios (catarata, hemorragia vítrea) ni los errores refractivos, y no requiere que las pupilas sean anisocóricas. Es uno de los signos más valiosos y objetivos del examen ocular en urgencias.",
+   "reference": "BCSC Sección 5, capítulo Examen neurooftalmológico (evaluación de pupilas)."
+  },
+  {
+   "n": 25,
+   "type": "mc",
+   "text": "Trabajador con sensación de cuerpo extraño tras esmerilar metal. Se observa una partícula metálica superficial en la córnea con anillo de óxido. ¿Cuál es el manejo adecuado?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Intentar retirarlo con un hisopo de algodón seco sin anestesia"
+    },
+    {
+     "id": "B",
+     "text": "Anestesia tópica, retiro con aguja o fresa bajo magnificación, verificar ausencia de perforación (Seidel), antibiótico tópico y no dar anestésico para la casa"
+    },
+    {
+     "id": "C",
+     "text": "Dejarlo hasta que se expulse solo"
+    },
+    {
+     "id": "D",
+     "text": "Aplicar corticoide tópico"
+    },
+    {
+     "id": "E",
+     "text": "Ocluir con parche por 5 días"
+    }
+   ],
+   "area": "Urgencias",
+   "topic": "Cuerpo extraño corneal",
+   "answer": "B",
+   "explanation": "El cuerpo extraño corneal se retira bajo anestesia tópica y magnificación; el anillo de óxido puede retirarse en el mismo momento o a las 24-48 horas. Siempre se descarta un cuerpo extraño intraocular (antecedente de alta velocidad) y se cubre con antibiótico tópico. El anestésico tópico nunca se prescribe para uso domiciliario.",
+   "reference": "BCSC Sección 8, capítulo Lesiones traumáticas del segmento anterior (cuerpo extraño corneal y conjuntival)."
+  },
+  {
+   "n": 26,
+   "type": "tf",
+   "text": "En un paciente con sospecha de trauma ocular abierto (globo perforado) es correcto aplicar ungüento antibiótico y un parche compresivo mientras se remite.",
+   "options": [
+    {
+     "id": "V",
+     "text": "Verdadero"
+    },
+    {
+     "id": "F",
+     "text": "Falso"
+    }
+   ],
+   "answer": "F",
+   "area": "Falso/Verdadero",
+   "topic": "",
+   "explanation": "Falso. Está contraindicada cualquier presión sobre el globo (parche compresivo, tonometría, manipulación) y la aplicación de ungüentos o gotas; se coloca un escudo rígido sin presión y se remite de inmediato.",
+   "reference": "BCSC Sección 8, capítulo Lesiones traumáticas del segmento anterior."
+  },
+  {
+   "n": 27,
+   "type": "tf",
+   "text": "El paciente con diabetes tipo 2 debe tener su primer examen de fondo de ojo con dilatación en el momento del diagnóstico, y la mayor parte de la ceguera por retinopatía diabética es prevenible con tamizaje y tratamiento oportuno.",
+   "options": [
+    {
+     "id": "V",
+     "text": "Verdadero"
+    },
+    {
+     "id": "F",
+     "text": "Falso"
+    }
+   ],
+   "answer": "V",
+   "area": "Falso/Verdadero",
+   "topic": "",
+   "explanation": "Verdadero. El tamizaje al diagnóstico y el control anual permiten tratar el edema macular y la retinopatía proliferativa antes de la pérdida visual irreversible.",
+   "reference": "BCSC Sección 12, capítulo Retinopatía diabética."
+  },
+  {
+   "n": 28,
+   "type": "tf",
+   "text": "Una hemorragia subconjuntival espontánea, indolora, sin trauma ni disminución de la visión, requiere remisión urgente a oftalmología.",
+   "options": [
+    {
+     "id": "V",
+     "text": "Verdadero"
+    },
+    {
+     "id": "F",
+     "text": "Falso"
+    }
+   ],
+   "answer": "F",
+   "area": "Falso/Verdadero",
+   "topic": "",
+   "explanation": "Falso. Es una condición benigna y autolimitada (2-3 semanas). Basta con tranquilizar al paciente, medir la presión arterial y revisar el uso de anticoagulantes o antiagregantes; se remite solo si es recurrente, hay trauma, dolor o alteración visual.",
+   "reference": "BCSC Sección 8, capítulo Enfermedades de la conjuntiva (hemorragia subconjuntival)."
+  },
+  {
+   "n": 29,
+   "type": "tf",
+   "text": "En la sospecha de arteritis de células gigantes con pérdida visual se deben iniciar los corticoides sistémicos sin esperar el resultado de la biopsia de arteria temporal.",
+   "options": [
+    {
+     "id": "V",
+     "text": "Verdadero"
+    },
+    {
+     "id": "F",
+     "text": "Falso"
+    }
+   ],
+   "answer": "V",
+   "area": "Falso/Verdadero",
+   "topic": "",
+   "explanation": "Verdadero. El objetivo es proteger el ojo contralateral; la biopsia continúa siendo diagnóstica durante al menos 1-2 semanas después de iniciados los corticoides.",
+   "reference": "BCSC Sección 5, capítulo El paciente con disminución de la visión (neuropatía óptica isquémica arterítica)."
+  },
+  {
+   "n": 30,
+   "type": "tf",
+   "text": "Es adecuado prescribir anestésico tópico (proparacaína o tetracaína) para que el paciente con abrasión corneal se lo aplique en casa para el dolor.",
+   "options": [
+    {
+     "id": "V",
+     "text": "Verdadero"
+    },
+    {
+     "id": "F",
+     "text": "Falso"
+    }
+   ],
+   "answer": "F",
+   "area": "Falso/Verdadero",
+   "topic": "",
+   "explanation": "Falso. El uso repetido de anestésicos tópicos es tóxico para el epitelio corneal, retrasa la cicatrización, enmascara la progresión de una infección y puede causar queratitis neurotrófica y perforación. El dolor se maneja con cicloplégicos, lubricantes, AINE orales y antibiótico tópico profiláctico.",
+   "reference": "BCSC Sección 2, capítulo Farmacología ocular (anestésicos locales); Sección 8, capítulo Lesiones tóxicas y traumáticas del segmento anterior."
+  }
+ ],
+ "bibliography": [
+  "1. Herbert J. Ingraham, editor. 2025-2026 Basic and Clinical Science Course, Section 1: Update on General Medicine. San Francisco (CA): American Academy of Ophthalmology; 2025. ISBN 9781681048321.",
+  "2. Vikram S. Brar, editor. 2025-2026 Basic and Clinical Science Course, Section 2: Fundamentals and Principles of Ophthalmology. San Francisco (CA): American Academy of Ophthalmology; 2025. ISBN 9781681048338.",
+  "3. Jesse L. Berry, Tatyana Milman, editor. 2025-2026 Basic and Clinical Science Course, Section 4: Ophthalmic Pathology and Intraocular Tumors. San Francisco (CA): American Academy of Ophthalmology; 2025. ISBN 9781681048352.",
+  "4. M. Tariq Bhatti, editor. 2025-2026 Basic and Clinical Science Course, Section 5: Neuro-Ophthalmology. San Francisco (CA): American Academy of Ophthalmology; 2025. ISBN 9781681048369.",
+  "5. Arif O. Khan, editor. 2025-2026 Basic and Clinical Science Course, Section 6: Pediatric Ophthalmology and Strabismus. San Francisco (CA): American Academy of Ophthalmology; 2025. ISBN 9781681048376.",
+  "6. Bobby S. Korn, editor. 2025-2026 Basic and Clinical Science Course, Section 7: Oculofacial Plastic and Orbital Surgery. San Francisco (CA): American Academy of Ophthalmology; 2025. ISBN 9781681048383.",
+  "7. Robert S. Feder, editor. 2025-2026 Basic and Clinical Science Course, Section 8: External Disease and Cornea. San Francisco (CA): American Academy of Ophthalmology; 2025. ISBN 9781681048390.",
+  "8. Wendy M. Smith, editor. 2025-2026 Basic and Clinical Science Course, Section 9: Uveitis and Ocular Inflammation. San Francisco (CA): American Academy of Ophthalmology; 2025. ISBN 9781681048406.",
+  "9. Michael V. Boland, editor. 2025-2026 Basic and Clinical Science Course, Section 10: Glaucoma. San Francisco (CA): American Academy of Ophthalmology; 2025. ISBN 9781681048413.",
+  "10. Erich P. Horn, editor. 2025-2026 Basic and Clinical Science Course, Section 11: Lens and Cataract. San Francisco (CA): American Academy of Ophthalmology; 2025. ISBN 9781681048420.",
+  "11. Stephen J. Kim, editor. 2025-2026 Basic and Clinical Science Course, Section 12: Retina and Vitreous. San Francisco (CA): American Academy of Ophthalmology; 2025. ISBN 9781681048437.",
+  "12. Samuelson R. Ophthalmology: BCSC Books - AAO [Internet]. Iowa City (IA): University of Iowa Libraries, Hardin Library for the Health Sciences; actualizado 20 jul 2026 [citado 6 sep 2026]. Disponible en: https://guides.lib.uiowa.edu/eye/bcsc-books"
+ ]
+}
